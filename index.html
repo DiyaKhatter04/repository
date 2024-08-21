@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <style>
+        
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            margin-bottom: 20px;
+        }
+
+        h2 {
+            margin-bottom: 20px;
+            color: #333;
+        }
+        .heading{
+            text-align: center;
+            font-family: cursive;
+            font-size: 250%;
+        }
+        .navbar-brand {
+            font-weight: bold;
+        }
+
+        section {
+            padding: 40px 0;
+        }
+
+        .img-fluid {
+            max-width: 100%;
+            height: auto;
+        }
+
+        footer {
+            background-color: #222;
+            color: white;
+        }
+
+        @media (min-width: 768px) {
+            #about img {
+                width: 100%;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <a class="navbar-brand" href="#">My Portfolio</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#about">About Me</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#projects">Projects</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <div class="heading">
+        WELCOME TO MY PORTFOLIO
+    </div>
+<br>
+<br>
+    <div id =about>
+        <div class="row">
+            <div class="col-md-4">
+                <img src="imagep.jpg" alt="Image" class="img-fluid rounded-circle">
+            </div>
+            <div class="col-md-8">
+                <h2>About Me</h2>
+                <p>Hello!My name is Diya Khatter .I am a passionate and dedicated software engineer with a strong 
+      foundation in programming and problem-solving. Having recently completed my degree in CSE, I am excited to 
+      embark on a professional journey in software development. My academic background hasequipped me with a solid
+     understanding of various programming languages, algorithms, data structures, and software design principles.
+    Throughout my studies, I have worked on several projects that have not only honed my technical skills but also 
+    sparked a deep interest in  web development, mobile app development, machine learning . These experiences have
+     taught me the importance of writing clean, efficient code and collaborating effectively within a team.
+    I am eager to bring my enthusiasm for technology and my willingness to learn to a dynamic work environment. 
+    I am particularly interested in opportunities where I can contribute to meaningful projects, grow alongside 
+    experienced professionals, and continue expanding my skill set in Artificial Intellegencre.
+    When I’m not coding, you can find me reading reseach papers,solving puzzles,participating in hackathons, contributing
+     to open-source projects or exploring new technologies.
+    I am excited to take on new challenges, learn from industry experts, and contribute to the success of 
+    innovative software solutions.
+    
+    
+                </p>
+            </div>
+        </div>
+        </div>
+        <div id="projects" class="container mt-5">
+            <h2>My Projects</h2>
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="card">
+                        <img src="project1.jpg" class="card-img-top" alt="Project 1">
+                        <div class="card-body">
+                            <h5 class="card-title">Robotic Car</h5>
+                            <p class="card-text">A robotic car project typically involves designing and building a small 
+                    autonomous or remotely controlled vehicle equipped with various sensors, motors, and a microcontroller
+                     or single-board computer.The robotic car project aims to create a self-navigating or remotely operated vehicle capable of performing tasks such as obstacle avoidance, path following, and object detection. The car is powered by 
+                     an onboard battery and controlled by a microcontroller like an Arduino, Raspberry Pi,
+                      or other similar devices. </p>
+        
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card">
+                        <img src="project2.jpg" class="card-img-top" alt="Project 2">
+                        <div class="card-body">
+                            <h5 class="card-title">Todo List</h5>
+                            <p class="card-text">A to-do list project is a simple yet powerful application designed to help users 
+                                manage tasks efficiently by organizing, tracking, and prioritizing their daily activities. This project
+                                 is ideal for learning and implementing fundamental concepts in software development,
+                             including front-end and back-end development, user interface design, and data storage.</p>
+                           
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card">
+                        <img src="project3.jpg" class="card-img-top" alt="Project 3">
+                        <div class="card-body">
+                            <h5 class="card-title">Drawing tool</h5>
+                            <p class="card-text">The drawing tool project can be customized and expanded in various ways, such as adding social media sharing options, integrating AI-based tools for automatic coloring or style transfer, or even developing 
+                                it into a full-fledged graphic design software with vector editing capabilities.
+
+                                Overall, a drawing tool project offers a rich learning experience, combining elements of user interface design,
+                                 real-time graphics rendering, and potentially, complex backend systems for data management and collaboration. 
+                                It’s a versatile project that can scale from a simple sketching tool to a comprehensive digital art platform.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact" class="container mt-5">
+            <h2>Contact Me</h2>
+            <form id="contact-form">
+                <div class="form-group">
+                    <label for="name">Name</label>
+                    <input type="text" class="form-control" id="name" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">Email</label>
+                    <input type="email" class="form-control" id="email" required>
+                </div>
+                <div class="form-group">
+                    <label for="message">Message</label>
+                    <textarea class="form-control" id="message" rows="5" required></textarea>
+                </div>
+                <button type="submit" class="btn btn-primary">Send Message</button>
+            </form>
+        </section>
+    </main>
+
+    
+    <footer class="bg-dark text-white text-center p-3 mt-5">
+        <p>&copy; @2024 DIYA KHATTER. All rights reserved.</p>
+    </footer>
+
+    <script type="text/javascript">
+        
+        document.querySelectorAll('.navbar a').forEach(anchor => {
+            anchor.addEventListener('click', function(e) {
+                e.preventDefault();
+                document.querySelector(this.getAttribute('href')).scrollIntoView({
+                    behavior: 'smooth'
+                });
+            });
+        });
+
+
+        document.getElementById('contact-form').addEventListener('submit', function(e) {
+            e.preventDefault();
+            
+            let name = document.getElementById('name').value.trim();
+            let email = document.getElementById('email').value.trim();
+            let message = document.getElementById('message').value.trim();
+            
+            if (name === '' || email === '' || message === '') {
+                alert('Please fill out all fields.');
+            } else {
+                alert('Message sent successfully!');
+
+            }
+        });
+    </script>
+</body>
+</html>
